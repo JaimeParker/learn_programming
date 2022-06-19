@@ -6,6 +6,9 @@ set(CMAKE_CXX_STANDARD 14)
 # find package
 
 # add executable
-add_executable(leetcode main.cpp src/question1.cc src/question1.h)
+add_executable(leetcode
+        main.cpp
+        src/question1.cc
+        include/question1.h)
 
 # target link libraries

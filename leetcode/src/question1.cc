@@ -1,5 +1,6 @@
 //
 // Created by hazyparker on 2022/4/14.
+// revise on 2022/6/19
 // https://leetcode-cn.com/problems/two-sum/
 //
 
@@ -9,4 +10,8 @@
  * 你可以按任意顺序返回答案。
  */
 
-#include "question1.h"
+#include "../include/question1.h"
+
+void question1(){
+
+}

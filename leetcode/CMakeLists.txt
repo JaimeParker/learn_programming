@@ -17,12 +17,8 @@ add_library(${PROJECT_NAME} SHARED
         src/Question2.cc
         include/Question2.h)
 
-# target link libraries
-target_link_libraries(
-        ${PROJECT_NAME}
-)
-
 # add executable
+# target link libraries
 add_executable(Answer
         main.cpp)
 target_link_libraries(Answer ${PROJECT_NAME})

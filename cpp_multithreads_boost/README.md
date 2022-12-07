@@ -25,3 +25,14 @@ A callable (called object) can be:
 std::thread thread_object(callable)
 ```
 
+for function pointer, the callable should be `function, params`
+
+a standard process for composing a thread is:
+```cpp
+// start thread t1
+std::thread t1(callable);
+// wait for t1 to finish
+t1.join();
+// t1 has finished, do other stuff
+```
+
